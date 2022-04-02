@@ -18,14 +18,14 @@
 $(call inherit-product, device/xiaomi/certus64/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/bliss/config/common_full_phone.mk)
+$(call inherit-product, vendor/octavi/config/common.mk)
 
 # Boot animaton
 TARGET_BOOT_ANIMATION_RES := 720
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := certus64
-PRODUCT_NAME := bliss_certus64
+PRODUCT_NAME := octavi_certus64
 PRODUCT_BRAND := xiaomi
-PRODUCT_MODEL := Redmi 6 / Redmi 6A
+PRODUCT_MODEL := Project Certus
 PRODUCT_MANUFACTURER := Xiaomi
