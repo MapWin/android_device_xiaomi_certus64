@@ -15,7 +15,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/bliss_certus64.mk
+    $(LOCAL_DIR)/octavi_certus64.mk
 
 COMMON_LUNCH_CHOICES := \
     octavi_certus64-user \
